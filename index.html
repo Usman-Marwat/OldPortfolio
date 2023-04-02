@@ -11,42 +11,56 @@
 		<title>Portfolio</title>
 	</head>
 	<body>
-		<h1>Hello World</h1>
-		<button class="btn">btn</button>
-		<p>
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, in
-			dignissimos. Cumque earum voluptatum tenetur? Consectetur veniam
-			obcaecati, ipsam delectus quidem magnam dolore vero laboriosam eveniet
-			numquam accusamus suscipit veritatis perferendis? At quae quia, temporibus
-			ut dicta, ipsam repellat sequi natus distinctio voluptate laboriosam
-			beatae incidunt? Fugiat cumque dolores id inventore! Nesciunt repudiandae
-			dolorem maiores qui corporis earum voluptatem saepe facilis ratione
-			incidunt architecto veritatis totam quasi dolorum impedit natus, voluptate
-			officia fuga nemo repellat quod eveniet id? Quaerat repellat accusantium
-			iure architecto? Animi nemo harum repudiandae aspernatur delectus cumque,
-			magni possimus non perferendis voluptatum veniam sunt expedita repellat
-			ipsam quo voluptas suscipit commodi soluta libero placeat. Nostrum modi
-			dignissimos, alias sunt vel libero distinctio veritatis officiis pariatur
-			ipsa, impedit et minus numquam aut qui quae accusantium nisi? Nemo
-			eligendi eius enim debitis adipisci natus quod nihil eveniet, aperiam
-			labore maiores ipsum, delectus possimus pariatur animi molestias, quidem
-			fuga quis. Quasi placeat nihil debitis harum quos mollitia libero aliquam
-			dolor blanditiis minus ipsam commodi fuga quidem adipisci, neque ipsum
-			voluptatibus sequi nesciunt exercitationem dolorem doloribus sapiente. Eum
-			culpa neque, dicta illum vel sed excepturi quo ipsum provident architecto.
-			Voluptatum quo quos non similique iste reiciendis temporibus vero unde
-			nulla aperiam consequuntur maiores accusamus culpa dolores labore magni
-			porro earum repudiandae nesciunt quae, odio aliquid esse? Voluptates ipsa
-			eos aut accusantium, nisi illo tenetur laudantium quibusdam odio
-			reiciendis at molestiae velit assumenda excepturi eius sapiente natus
-			illum repellat quaerat voluptate quia, consectetur, nihil incidunt! Neque
-			odio similique magnam dolore quo suscipit nobis, atque necessitatibus
-			laboriosam laudantium ea ipsam. Magni, neque est iste, dicta natus maxime
-			doloribus pariatur autem suscipit aut corporis doloremque ducimus sint,
-			quod placeat facere ipsa! Autem nihil quaerat delectus consectetur et
-			libero dignissimos, maiores sed, cum iure beatae maxime neque ipsam
-			accusantium minus quisquam aliquid. Nisi, expedita et.
-		</p>
+		<header class="header container">
+			<nav>
+				<ul class="header__menu">
+					<li>
+						<a class="header__link" href="#about">About</a>
+					</li>
+					<li>
+						<a class="header__link" href="#featured">Work</a>
+					</li>
+					<li>
+						<a class="header__link" href="#contact">Contact</a>
+					</li>
+					<li class="header__line"></li>
+					<li>
+						<button
+							aria-label="theme-toggle btn"
+							id="theme-toggle"
+							class="header__sun"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+							>
+								<path
+									d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+								/>
+							</svg>
+						</button>
+					</li>
+					<li>
+						<a class="header__resume btn" href="#">Resume</a>
+					</li>
+				</ul>
+				<button aria-label="mobile nav button" class="header__bars">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="currentColor"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</button>
+			</nav>
+		</header>
+
 		<script type="module" src="/src/main.js"></script>
 	</body>
 </html>
