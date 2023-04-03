@@ -82,3 +82,13 @@ you spontaneously add when things are not reponsive anymore*/
 		max-width: 1536px;
 	}
 }
+
+.loading {
+	filter: blur(40px) grayscale(100%);
+}
+
+/*resetting whats in the loading class*/
+.loaded {
+	filter: blur(0) grayscale(0);
+	transition: 0.7s ease-in-out;
+}
